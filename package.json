@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/RAG_LAB_TULIO/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "mock:rag": "node scripts/mock_rag_server.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
